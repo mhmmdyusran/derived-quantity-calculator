@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penghitung Besaran Turunan</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Penghitung Besaran Turunan</h1>
+        <div class="form-group">
+            <label for="rumusSelect">Pilih Rumus:</label>
+            <select id="rumusSelect" onchange="tampilkanForm()">
+                <option value="">Pilih Rumus</option>
+                <option value="kecepatan">Kecepatan</option>
+                <option value="percepatan">Percepatan</option>
+                <option value="gaya">Gaya</option>
+                <option value="usaha">Usaha</option>
+                <option value="energiKinetik">Energi Kinetik</option>
+                <option value="energiPotensial">Energi Potensial</option>
+                <option value="momentum">Momentum</option>
+                <option value="daya">Daya</option>
+                <option value="tekanan">Tekanan</option>
+                <option value="stefanBoltzmann">Hukum Stefan-Boltzmann</option>
+                <option value="momentumSudut">Momentum Sudut</option>
+                <option value="impuls">Impuls</option>
+                <option value="dayaListrik">Daya Listrik</option>
+                <option value="kapasitasPanas">Kapasitas Panas</option>
+                <option value="volume">Volume</option>
+                <option value="densitas">Densitas</option>
+                <option value="gayaGesekan">Gaya Gesekan</option>
+                <option value="energiMekanik">Energi Mekanik</option>
+                <option value="frekuensi">Frekuensi</option>
+                <option value="waktu">Waktu</option>
+                <option value="panjangGelombang">Panjang Gelombang</option>
+                <option value="tekananHidrostatis">Tekanan Hidrostatis</option>
+                <option value="modulusYoung">Modulus Young</option>
+            </select>
+        </div>
+        <div id="formContainer"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
